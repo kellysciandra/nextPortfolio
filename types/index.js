@@ -1,0 +1,3 @@
+const SIDEBAR_OPEN = "SIDEBAR_OPEN";
+
+export { SIDEBAR_OPEN };
