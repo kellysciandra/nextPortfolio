@@ -11,7 +11,6 @@ const HomeContainer = styled.div`
   @media only screen and (max-width: 600px) {
     background-color: aquamarine;
     margin-top: 0;
-    border: 1px solid;
 
     justify-content: left;
     align-items: left;
