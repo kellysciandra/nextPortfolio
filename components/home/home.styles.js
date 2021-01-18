@@ -9,9 +9,9 @@ const HomeContainer = styled.div`
   margin: 5rem 0 5rem 0;
   height: 90vh;
   @media only screen and (max-width: 600px) {
-    height: 100vh;
     background-color: aquamarine;
     margin-top: 0;
+    border: 1px solid;
 
     justify-content: left;
     align-items: left;
@@ -48,8 +48,8 @@ const DashboardText = styled.div`
 
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
-    width: 90%;
-    margin: 2rem 0 0 1em;
+    width: 70%;
+    margin: 2rem 0 0 0;
   }
 `;
 

@@ -9,8 +9,8 @@ const NavContainer = styled.div`
 
   @media only screen and (max-width: 600px) {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
     top: 0;
     background-color: aquamarine;
     border-bottom: 5px solid white;
@@ -20,7 +20,7 @@ const NavContainer = styled.div`
 const LinkStyle = styled.div`
   display: flex;
   font-weight: bold;
-  margin: 1rem 0 0 4rem;
+  margin: 1rem 0 0 5rem;
   padding: 20px;
   text-decoration: none;
 
@@ -29,9 +29,8 @@ const LinkStyle = styled.div`
   font-size: 1.5em;
 
   @media only screen and (max-width: 600px) {
-    padding: 1rem 1rem 1rem 1rem;
     margin: 0;
-    opacity: 0.8;
+    /* opacity: 0.8; */
   }
 `;
 

@@ -22,13 +22,9 @@ const HomePage = () => {
           <br></br>I like to create{" "}
           <span style={{ fontWeight: "bold" }}>simple</span> and{" "}
           <span style={{ fontWeight: "bold" }}>functional</span> digital
-          environments.
-          <br></br>
-          <br></br>I like to use{" "}
-          <span style={{ fontWeight: "bold" }}>React</span>,{" "}
-          <span style={{ fontWeight: "bold" }}>Next.js</span>,{" "}
-          <span style={{ fontWeight: "bold" }}>Styled-Components</span>, and{" "}
-          <span style={{ fontWeight: "bold" }}>Styled-System</span>
+          environments using <span style={{ fontWeight: "bold" }}>React</span>,{" "}
+          <span style={{ fontWeight: "bold" }}>Next.js</span>,
+          <span style={{ fontWeight: "bold" }}>and Styled-Components</span>
         </DashboardText>
         <Git />
       </HomeContainer>
