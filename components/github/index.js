@@ -1,11 +1,10 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Bio, Repo, Link, Container, Wrapper } from "./github.styles";
+import { Bio, Repo, Link, Wrapper } from "./github.styles";
 
 const Git = () => {
   const [bio, setBio] = useState([]);
   const [repo, setRepo] = useState([]);
-
   const [link, setLink] = useState([]);
 
   useEffect(() => {
@@ -25,18 +24,17 @@ const Git = () => {
   return (
     <div>
       <section id="card">
-        <Container>
+      
           <Wrapper>
             <Link>
               <a href={link}>github</a>
             </Link>
             <Bio> {bio} </Bio>
-
             <Repo>
-              <a href={repo}>repos</a>
+              <a href={"https://github.com/kellysciandra?tab=repositories"}>repos</a>
             </Repo>
           </Wrapper>
-        </Container>
+      
       </section>
     </div>
   );

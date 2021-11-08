@@ -1,56 +1,67 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-  margin-top: 5rem;
-  display: flex;
-`;
-
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
-  border: 10px double aqua;
-  padding: 1rem 1rem 1rem 1rem;
+  float: right;
+  width: 50%;
+  padding: 15px;
+  margin: 10em;
+  font-weight: bold;
+  border: 15px solid;
+  border-radius: 15px;
+  background-image: url('../../fish.png');
+  background-size: 1700px 10px;
   border-radius: 10px;
-  @media only screen and (max-width: 600px) {
-    border-radius: 10%;
-    padding: 1rem;
-    margin: 0;
-  }
-`;
-const Bio = styled.div`
-  padding: 1rem 1rem 1rem 1rem;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5em;
-  font-weight: bolder;
-  @media only screen and (max-width: 600px) {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    font-size: 1.125em;
-  }
-`;
 
-const Repo = styled.div`
-  font-size: 1.25rem;
-  padding: 1rem 1rem 1rem 1rem;
-  font-family: "Inconsolata", monospace;
   @media only screen and (max-width: 600px) {
-    font-size: 1.125;
-    color: black;
+    border: none;
+    background-image: url('../../fish4.png');
+    background-size: 100px 100px;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 20em;
+    width: 10vw;
   }
 `;
 
 const Link = styled.div`
+  animation: ease-in 1s alternate infinite;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 1rem 1rem;
+  font-family: "Inconsolata", monospace;
+  @media only screen and (max-width: 600px) {
+  
+    color: white;
+  }
+`;
+
+const Bio = styled.div`
+  padding: 1rem 1rem 1rem 1rem;
+  font-family: "Inconsolata", monospace;
+  font-size: 5em;
+  font-weight: bolder;
+  align-content: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5em;
+
+  }
+`;
+
+const Repo = styled.div`
+  animation: blinker 3s alternate infinite;
+  color: white;
   font-size: 1.25rem;
   padding: 1rem 1rem 1rem 1rem;
   font-family: "Inconsolata", monospace;
   @media only screen and (max-width: 600px) {
     font-size: 1.125;
-    color: black;
+    color: white;
   }
 `;
 
-export { Bio, Repo, Link, Container, Wrapper };
+
+
+export { Bio, Repo, Link, Wrapper };

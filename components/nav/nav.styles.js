@@ -1,58 +1,74 @@
 import styled from "styled-components";
 
 const NavContainer = styled.div`
-  position: fixed;
-  top: 75px;
-  width: 100%;
-  height: 5rem;
-  transition: 0.25s ease-in-out;
+    position: fixed;
+    transition: 0.25s ease-in-out;
+    background-size: 800px 10px;
+    height: 150vh;
+    width: 100vw;
+    background-image: url('../../fish.png');
 
   @media only screen and (max-width: 600px) {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    top: 0;
-    background-color: aquamarine;
-    border-bottom: 5px solid white;
+    background-size: 900px 10px;
+    height: 150vh;
+    width: 100vw;
+    background-image: url('../../fish4.png');
   }
 `;
 
 const LinkStyle = styled.div`
-  display: flex;
-  font-weight: bold;
-  margin: 1rem 0 0 4rem;
-  padding: 20px;
-  text-decoration: none;
-
-  cursor: pointer;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5em;
-
-  @media only screen and (max-width: 600px) {
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 0;
-    opacity: 0.8;
-  }
+    display: flex;
+    font-weight: bold;
+    margin: 0 0 0 4rem;
+    letter-spacing: .2em;
 `;
 
 const Home = styled.div`
-  font-family: "Inconsolata", monospace;
 
-  .inside {
-    border: 10px double aqua;
-    font-weight: bolder;
-    color: black;
-    background-color: aquamarine;
+  .logo {
+    border-radius: 5px;
+    padding: 3em;
+    filter: blur(0.01em);
+    animation: shake 2.5s linear forwards;
+    position: relative;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    font-weight: bold;
+    font-style: italic;
   }
+  .notSelected {
+    font-family: "Inconsolata", monospace;
+    filter: drop-shadow(16px 16px 20px #1da9cc);
+    position: relative;
+    font-size: 1.5em;
+    text-shadow: 0 0 0.25em whitesmoke;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 2em;
+  }
+
   @media only screen and (max-width: 600px) {
-    border: none;
-
-    .inside {
-      color: black;
-
-      border: none;
+    margin: 0;
+    cursor: pointer;
+    .logo {
+        padding: 0;
+        margin: 2em;
+    
     }
   }
 `;
 
-export { NavContainer, LinkStyle, Home };
+const Paw = styled.div`
+    position: absolute;
+    background-size: 100px 100px;
+    z-index: 1;
+    height: 200vh;
+    width: 50vw;
+    padding: 25px;
+    background-image: url('../../paw.png');
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out 0s;
+`
+export { NavContainer, LinkStyle, Home, Paw };

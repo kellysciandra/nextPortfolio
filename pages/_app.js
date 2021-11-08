@@ -9,8 +9,9 @@ import "../node_modules/nprogress/nprogress.css";
 function MyApp({ Component, pageProps }) {
   return (
     <StateProvider>
-      <Nav />
+    <Nav />
       <Component {...pageProps} />
+  
     </StateProvider>
   );
 }

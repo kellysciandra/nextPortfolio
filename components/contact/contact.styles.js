@@ -1,58 +1,51 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  background-color: aquamarine;
-  display: flex;
-  margin: 5rem 0 5rem 0;
-  height: 90vh;
+    z-index: 1;
+    position: relative;
+    background-image: url('../../fish4.png');
+    background-size: 1700px 10px;
+    border-radius: 5px;
+    float: right;
+    margin: 15em;
+    width: 50%;
   @media only screen and (max-width: 600px) {
-    background-color: aquamarine;
+    background-size: 900px 10px;
+    background-image: url('../../fish4.png');
     width: 100%;
-    height: 110vh;
+    margin: 0;
+    margin-top: 18em;
   }
 `;
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  margin: 5em 1em 10em 25em;
+    display: flex;
+    flex-direction: row;
+    border: 10px double greenyellow;
+
   @media only screen and (max-width: 600px) {
-    margin: 0;
-    align-items: left;
-    justify-content: left;
+    flex-direction: column;
   }
 `;
 
 const Text = styled.div`
   padding: 1rem;
   font-family: "Inconsolata", monospace;
-  font-size: 2em;
-
-  span {
-    br {
-      display: none;
-    }
-  }
+  font-size: 3em;
+  border-right: 1px double greenyellow;
   @media only screen and (max-width: 600px) {
-    margin-top: 1rem;
-    padding: 1rem;
-    span {
-      br {
-        display: initial;
-      }
-    }
+ 
+    border-bottom: 1px double greenyellow;
   }
 `;
 
 const Header = styled.div`
   font-family: "Inconsolata", monospace;
   font-size: 1.25rem;
-  background-color: aquamarine;
+
 
   @media only screen and (max-width: 600px) {
-    margin-top: 5em;
+ 
   }
 `;
 
@@ -64,11 +57,7 @@ const Header1 = styled.div`
   font-weight: bolder;
 
   @media only screen and (max-width: 600px) {
-    border: 10px double aqua;
-    border-radius: 10px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+
   }
 `;
 export { Container, Wrapper, Text, Header, Header1 };

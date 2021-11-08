@@ -28,6 +28,7 @@ const Layout = ({ children, title }) => (
       {/* <script type="text/javascript">
                 {media}
             </script> */}
+            <script src="https://kit.fontawesome.com/376f802ef0.js" crossorigin="anonymous"></script>
     </Head>
 
     {children}
