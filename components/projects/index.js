@@ -1,4 +1,5 @@
 import React from "react";
+import { isMobile } from 'react-device-detect';
 
 import {
   Container,
@@ -24,7 +25,7 @@ const ProjectsPage = () => {
                 <video 
                     controls src={"/Test.mp4"} 
                     className='vid'
-                    autoPlay
+                    autoplay= { isMobile ? false : true }
                     loop 
                 />
             </LinkWrapper>
@@ -40,7 +41,7 @@ const ProjectsPage = () => {
                 <video
                     className='vid'
                     controls src={"/Test2.mp4"} 
-                    autoPlay
+                    autoplay= { isMobile ? false : true }
                     loop 
                 />
             </LinkWrapper>
