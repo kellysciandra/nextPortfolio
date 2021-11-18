@@ -55,7 +55,6 @@ const MoreButton = styled.button`
 const VerticalText = styled.div`
     writing-mode: vertical-rl;
     text-orientation: mixed;
-
     float: right;
     font-weight: bold;
 `

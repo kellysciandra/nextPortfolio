@@ -26,39 +26,37 @@ const LinkStyle = styled.div`
 `;
 
 const Home = styled.div`
-
-  .logo {
-    border-radius: 5px;
-    padding: 3em;
-    filter: blur(0.01em);
-    animation: shake 2.5s linear forwards;
-    position: relative;
-    font-size: 5em;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.15em #1da9cc;
-    font-weight: bold;
-    font-style: italic;
-  }
-  .notSelected {
-    font-family: "Inconsolata", monospace;
-    filter: drop-shadow(16px 16px 20px #1da9cc);
-    position: relative;
-    font-size: 1.5em;
-    text-shadow: 0 0 0.25em whitesmoke;
-    font-style: italic;
-    color: whitesmoke;
-    font-size: 2em;
-  }
-
-  @media only screen and (max-width: 600px) {
-    margin: 0;
-    cursor: pointer;
     .logo {
-        padding: 0;
-        margin: 2em;
-    
+        border-radius: 5px;
+        padding: 3em;
+        filter: blur(0.01em);
+        animation: shake 2.5s linear forwards;
+        position: relative;
+        font-size: 5em;
+        text-transform: uppercase;
+        text-shadow: 0 0 0.15em #1da9cc;
+        font-weight: bold;
+        font-style: italic;
     }
-  }
+    .notSelected {
+        font-family: "Inconsolata", monospace;
+        filter: drop-shadow(16px 16px 20px #1da9cc);
+        position: relative;
+        font-size: 1.5em;
+        text-shadow: 0 0 0.25em whitesmoke;
+        font-style: italic;
+        color: whitesmoke;
+        font-size: 2em;
+    }
+
+    @media only screen and (max-width: 600px) {
+        margin: 0;
+        cursor: pointer;
+        .logo {
+            padding: 0;
+            margin: 2em;
+        }
+    }
 `;
 
 const Paw = styled.div`

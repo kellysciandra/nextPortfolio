@@ -21,23 +21,21 @@ const Git = () => {
     search();
   }, []);
 
-  return (
-    <div>
-      <section id="card">
-      
-          <Wrapper>
-            <Link>
-              <a href={link}>github</a>
-            </Link>
-            <Bio> {bio} </Bio>
-            <Repo>
-              <a href={"https://github.com/kellysciandra?tab=repositories"}>repos</a>
-            </Repo>
-          </Wrapper>
-      
-      </section>
-    </div>
-  );
+  return <>
+        <div>
+            <section id="card">
+                <Wrapper>
+                    <Link>
+                    <a href={link}>github</a>
+                    </Link>
+                    <Bio> {bio} </Bio>
+                    <Repo>
+                    <a href={"https://github.com/kellysciandra?tab=repositories"}>repos</a>
+                    </Repo>
+                </Wrapper>
+            </section>
+        </div>
+    </>;
 };
 
 export default Git;

@@ -33,7 +33,6 @@ const Link = styled.div`
   padding: 1rem 1rem 1rem 1rem;
   font-family: "Inconsolata", monospace;
   @media only screen and (max-width: 600px) {
-  
     color: white;
   }
 `;

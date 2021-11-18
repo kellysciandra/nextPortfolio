@@ -1,10 +1,6 @@
 import React from "react";
-
 import Git from "../github";
-
-import {
-  HomeContainer,
-} from "./home.styles";
+import { HomeContainer } from "./home.styles";
 
 const HomePage = () => {
   return <>
