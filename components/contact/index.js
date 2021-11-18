@@ -11,25 +11,19 @@ const ContactsPage = () => {
             <Text>
                 <a href="mailto:kellysciandradev@icloud.com">
                     EMAIL
-                <SubText>
-                    EMAIL EMAIL EMAIL EMAIL
-                </SubText>
+  
                 </a>
             </Text>
 
             <Text><a href="https://www.linkedin.com/in/kelly-sciandra-464b371a0/"> 
                 linkedIN
-                <SubText>
-                    linkedIN linkedIN linkedIN linkedIN
-                </SubText>
+   
                 </a>
             </Text>
 
             <Text><a href="https://www.instagram.com/kellynobody/"> 
                 Instagram
-                <SubText>
-                    Instagram Instagram Instagram Instagram
-                </SubText>
+
                 </a>
             </Text>
 

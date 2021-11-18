@@ -7,7 +7,7 @@ const NavContainer = styled.div`
     height: 150vh;
     width: 100vw;
     background-image: url('../../fish.png');
-
+    cursor: pointer;
   @media only screen and (max-width: 600px) {
     display: flex;
     background-size: 900px 10px;
@@ -22,6 +22,7 @@ const LinkStyle = styled.div`
     font-weight: bold;
     margin: 0 0 0 4rem;
     letter-spacing: .2em;
+    cursor: pointer;
 `;
 
 const Home = styled.div`

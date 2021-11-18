@@ -7,8 +7,7 @@ const Container = styled.div`
     background-size: 1700px 10px;
     border-radius: 5px;
     float: right;
-    margin: 15em;
-    width: 50%;
+    margin: 20em;
   @media only screen and (max-width: 600px) {
     background-size: 900px 10px;
     background-image: url('../../fish4.png');

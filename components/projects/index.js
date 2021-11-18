@@ -1,77 +1,66 @@
 import React from "react";
+import ReactPlayer from 'react-player';
+
 
 import {
   Container,
   Wrapper,
-  Text,
   Header,
   Header1,
   SubText,
   SubText2,
-  Text2
+  SubText3,
+  LinkWrapper
 } from "./projects.styles";
 const ProjectsPage = () => {
   return (
     <>
       <Container>
-        <Wrapper>
-          {/* <Text>
-            <SubText>Inventory Management Software</SubText>
+          <Wrapper>
+            <Header>Inventory Management Software
             <a href="https://do-strapi-frontend.vercel.app/">
               {" "}
-              <span style={{ opacity: ".5", marginLeft: "5%" }}>
-              do-strapi-frontend.vercel.app
+              <span style={{ fontSize: '.5em', opacity: ".5" }}>
+              here
               </span>{" "}
             </a>
-            <SubText2>
-              Itsjoya is a home and gift design shop based in Brooklyn, NY. We
-              are a collective of designers and artists working together to
-              curate and source creative and quality home goods at affordable
-              prices. We encourage collaborations, and we would love to hear
-              from talented designers who are looking for a platform to sell or
-              showcase their work.
-            </SubText2>
-          </Text>
 
-          <Text>
-            <SubText>Employee Onboarding Application</SubText>
+            </Header> 
+            <SubText2>
+                A project to help manage Inventory, email stock reports, and place daily orders. 
+            </SubText2>
+ 
+            <LinkWrapper>
+                <video 
+                    controls src={"/Test.mp4"} 
+                    className='vid'
+                    autoPlay
+                    loop 
+                />
+            </LinkWrapper>
+
+            <SubText>Employee Onboarding Application
+
             <a href="https://nancys.dev">
               {" "}
-              <span style={{ opacity: ".5", marginLeft: "5%" }}>
-              nancys.dev
+              <span style={{ fontSize: '.5em', opacity: ".5" }}>
+              here
               </span>{" "}
             </a>
+            </SubText>
             <SubText2>
-              Nancy's Dev site was a project I created to help onboard employees.  Bla Bla Bla
+              A project to assist in onboarding employees.
             </SubText2>
-          </Text>
 
-          <Text>
-            <SubText>Inventory Management Software</SubText>
-            <a href="https://do-strapi-frontend.vercel.app/">
-              {" "}
-              <span style={{ opacity: ".5", marginLeft: "5%" }}>
-              dadagoo.com
-              </span>{" "}
-            </a>
-            <SubText2>
-              Itsjoya is a home and gift design shop based in Brooklyn, NY. We
-              are a collective of designers and artists working together to
-              curate and source creative and quality home goods at affordable
-              prices. We encourage collaborations, and we would love to hear
-              from talented designers who are looking for a platform to sell or
-              showcase their work.
-            </SubText2>
-          </Text> */}
-
-            <Text2>
-            updating ...
-          </Text2>
-       
-
-        
-       
-        </Wrapper>
+            <LinkWrapper  >
+                <video
+                    className='vid'
+                    controls src={"/Test2.mp4"} 
+                    autoPlay
+                    loop 
+                />
+            </LinkWrapper>
+            </Wrapper>
       </Container>
     </>
   );

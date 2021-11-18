@@ -14,7 +14,7 @@ const NavBar = () => {
     const transformImage = () => {
         setToggle(!toggle)
     };
-console.log(isMobile)
+
   return <>
     <NavContainer>
         <Link href="/">
