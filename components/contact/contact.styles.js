@@ -3,15 +3,10 @@ import styled from "styled-components";
 const Container = styled.div`
     z-index: 1;
     position: relative;
-    background-image: url('../../fish4.png');
-    background-size: 1700px 10px;
-    border-radius: 5px;
     float: right;
     margin: 20em;
-    
+    font-family: Helvetica, Sans-Serif;
     @media only screen and (max-width: 600px) {
-        background-size: 900px 10px;
-        background-image: url('../../fish4.png');
         width: 100%;
         margin: 0;
         margin-top: 18em;
@@ -21,7 +16,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    border: 10px double greenyellow;
+    border: 4px double rgb(255,0,27);
 
     @media only screen and (max-width: 600px) {
         flex-direction: column;
@@ -30,12 +25,12 @@ const Wrapper = styled.div`
 
 const Text = styled.div`
     padding: 1rem;
-    font-family: "Inconsolata", monospace;
     font-size: 3em;
-    border-right: 1px double greenyellow;
-
+    font-weight: 100;
+    border-right: .5px double rgb(255,0,27);
+    color: rgb(255,0,27);
   @media only screen and (max-width: 600px) {
-    border-bottom: 1px double greenyellow;
+    border-bottom: 1px double rgb(255,0,27);
   }
 `;
 

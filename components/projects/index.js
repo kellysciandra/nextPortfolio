@@ -15,7 +15,7 @@ const ProjectsPage = () => {
             <Header>Inventory Management Software
                 <a href="https://do-strapi-frontend.vercel.app/">
                     {" "}
-                    <span style={{ fontSize: '.5em', opacity: ".5" }}> here </span>{" "}
+                    <span style={{ fontSize: '.45em' }}> here </span>{" "}
                 </a>
             </Header> 
             <SubText2>
@@ -29,11 +29,11 @@ const ProjectsPage = () => {
                     loop 
                 />
             </LinkWrapper>
-            <SubText>Employee Onboarding Application
+            <Header>Employee Onboarding Application
             <a href="https://nancys.dev"> {" "}
-              <span style={{ fontSize: '.6em', opacity: ".5" }}> here </span>{" "}
+              <span style={{ fontSize: '.55em' }}> here </span>{" "}
             </a>
-            </SubText>
+            </Header>
             <SubText2>
               A project to assist in onboarding employees.
             </SubText2>

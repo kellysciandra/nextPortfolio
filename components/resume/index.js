@@ -24,15 +24,15 @@ const AboutPage = () => {
             <Title>Front End Developer</Title>
             <Description>
                 Experience in React and Next.js software development. <br/>
-                Demonstrates a clear understanding of coding <br/>
-                concepts and foundations professionally <br/>
-                and within projects. Experience in Operations Management <br/>
-                with knowledge of process optimization and team-building <br/>
-                for a seasonal business that grosses more than $6 Million. <br/>
-                An assertive and enthusiastic leader who excels at <br/>
-                strategic planning, responsive design, and lending <br/>
-                thoughtful technical insight throughout<br/>
-                the product development cycle.
+                Demonstrates a clear understanding of coding concepts <br/>
+                and foundations professionally and within projects.  <br/>
+                Experience in Operations Management with knowledge of <br/>
+                process optimization and team-building for a seasonal business <br/>
+                that grosses more than $6 Million. An assertive and  <br/>
+                enthusiastic leader who excels at strategic planning, <br/>
+                responsive design, and lending thoughtful technical <br/>
+                insight throughout  the product development cycle.<br/>
+               
             </Description>
             <MoreButton style={{display: button1 ? "block" : "none"}} onClick={toggleButtonOne}>keep reading</MoreButton>
             <Description style={{display: toggle1 ? "block" : "none"}}>
@@ -50,18 +50,18 @@ const AboutPage = () => {
             <MoreButton style={{display: displayButton2 ? "block" : "none"}} onClick={toggleButtonTwo}>keep reading</MoreButton>
             <Description style={{display: toggle2 ? "block" : "none"}}> 
                 <VerticalText>Experience</VerticalText>
-                MBS Highway <br/>
-                <SubText>Software Developer  10/2020 - 09/2021</SubText>
+                <span style={{fontWeight: "bolder"}}>MBS Highway </span><br/>
+                <SubText>Software Developer  11/2020 - 10/2021</SubText>
                 <SubText> 
-                    - Converted applications front end <br/>
+                    - Converted applications front end 
                     from C# to React. <br/>
-                    - Built a site-wide component guide with Storybook 
+                    - Built a site-wide component guide with Storybook <br/>
                     for isolated testing and UI development. <br/>
                     - Created page mockups using Adobe XD. <br/>
                     - Developed custom focus styling for <br/>
                     proprietary calcs, enhancing the UX. 
                 </SubText> <br/>
-                Razu <br/>
+                <span style={{fontWeight: "bolder"}}>Razu</span><br/>
                 <SubText>Front End Developer  10/2020 - Present</SubText>
                 <SubText> 
                     - Write reusable, testable, and efficient code <br/>
@@ -73,13 +73,13 @@ const AboutPage = () => {
             </Description>
             <Description style={{display: toggle2 ? "block" : "none"}}>
                 <VerticalText>Education</VerticalText>
-                Flatiron School <br/>
+                <span style={{fontWeight: "bolder"}}>Flatiron School </span> <br/>
                 <SubText>02/2018 - 02/2020</SubText>
-                <SubText>Full Stack Web Development - Ruby on Rails, JavaScript, and React/Redux program.</SubText><br/>
-                Berklee College of Music
+                <SubText>Full Stack Web Development - Ruby on Rails, JavaScript, <br/> and React/Redux program.</SubText><br/>
+                <span style={{fontWeight: "bolder"}}>Berklee College of Music </span>
                 <SubText>05/2009 - 09/2011</SubText>
                 <SubText>Jazz Studies</SubText> <br/>
-                Suny Fredonia
+                <span style={{fontWeight: "bolder"}}>SUNY Fredonia </span>
                 <SubText>09/2004 - 09/2006</SubText>
                 <SubText>Music Buisness</SubText>
             </Description>

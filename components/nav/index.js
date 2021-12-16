@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { useState } from "react";
 import { isMobile } from 'react-device-detect';
-import { NavContainer, LinkStyle, Home, Paw } from "./nav.styles";
+import { NavContainer, LinkStyle, Home, Paw, ContactLinks } from "./nav.styles";
+import { FiLinkedin, FiMail } from 'react-icons/fi';
 
 const NavBar = () => {
     const [toggle, setToggle] = useState(false)
-    const rotate = !isMobile ? "rotate(20deg)" : "rotate(5deg)"
+    const rotate = !isMobile ? "rotate(5deg)" : "rotate(5deg)"
     const transformImage = () => {
         setToggle(!toggle)
     };
@@ -15,13 +16,15 @@ const NavBar = () => {
             <Link href="/">
                 <LinkStyle>
                 <Home>
-                    <Home className="logo">ks</Home>
+                    <Home className="logo">kelly sciandra</Home>
                 </Home>
                 </LinkStyle>
             </Link>
+
             <Paw
                 onClick={transformImage}
                 style={{transform: toggle ? rotate : "none"}}
+                className="paw"
             >
                 <Link href="/resume">
                     <LinkStyle>
@@ -30,13 +33,13 @@ const NavBar = () => {
                     </Home>
                     </LinkStyle>
                 </Link>
-                <Link href="/contact">
+                {/* <Link href="/contact">
                     <LinkStyle>
                     <Home>
                         <Home className="notSelected">contact</Home>
                     </Home>
                     </LinkStyle>
-                </Link>
+                </Link> */}
                 <Link href="/projects">
                     <LinkStyle>
                     <Home>
@@ -44,7 +47,19 @@ const NavBar = () => {
                     </Home>
                     </LinkStyle>
                 </Link>
-            </Paw> 
+            </Paw>
+            <ContactLinks>
+            <a className="links" href="mailto:kellysciandradev@icloud.com"> 
+                <FiMail style={{ strokeWidth: .7}} size={40}/>
+            </a>
+            </ContactLinks> 
+            <ContactLinks>
+            <a  className="links" href="https://www.linkedin.com/in/kelly-sciandra-464b371a0/"> 
+                <FiLinkedin style={{ strokeWidth: .7}} size={40}/>
+            </a>
+            </ContactLinks>
+    
+           
         </NavContainer>
     </>;
 };

@@ -1,63 +1,65 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
   float: right;
   width: 50%;
-  padding: 15px;
-  margin: 10em;
+  padding: 20px;
+  margin: 15em 15em 0 0;
   font-weight: bold;
-  border: 15px solid;
+  border: 4px double rgb(255,0,27);;
   border-radius: 15px;
-  background-image: url('../../fish.png');
-  background-size: 1700px 10px;
-  border-radius: 10px;
+  color: rgb(255,0,27);
 
-  @media only screen and (max-width: 600px) {
-    border: none;
-    background-image: url('../../fish4.png');
-    background-size: 100px 100px;
-    border-radius: 10px;
-    padding: 0;
-    margin-top: 20em;
-    width: 10vw;
-  }
+    @media only screen and (max-width: 600px) {
+      border: 4px double rgb(255,0,27);;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20em 2em 0 0;
+      width: 80%;
+    }
 `;
 
 const Link = styled.div`
   animation: ease-in 1s alternate infinite;
-  color: white;
+  color: rgb(255,0,27);
   font-size: 1.25rem;
+  font-weight: lighter;
   padding: 1rem 1rem 1rem 1rem;
   font-family: "Inconsolata", monospace;
   @media only screen and (max-width: 600px) {
-    color: white;
+
+
   }
 `;
 
 const Bio = styled.div`
   padding: 1rem 1rem 1rem 1rem;
-  font-family: "Inconsolata", monospace;
-  font-size: 5em;
-  font-weight: bolder;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 4em;
+  font-weight: lighter;
   align-content: center;
   @media only screen and (max-width: 600px) {
     font-size: 2.5em;
-
+    margin-left: .5em;
   }
 `;
 
 const Repo = styled.div`
-  animation: blinker 3s alternate infinite;
-  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: rgb(255,0,27);
   font-size: 1.25rem;
   padding: 1rem 1rem 1rem 1rem;
-  font-family: "Inconsolata", monospace;
+
   @media only screen and (max-width: 600px) {
     font-size: 1.125;
-    color: white;
+    font-weight: lighter;
   }
 `;
 

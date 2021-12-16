@@ -1,31 +1,31 @@
 import styled from "styled-components";
 
 const ResumeContainer = styled.div`
-    font-family: "Inconsolata", monospace;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 10em;
+    margin: 10em 15em 0 0;
+    width: 45%;
     z-index: 1;
     position: relative;
-    background-image: url('../../fish.png');
-    background-size: 1700px 10px;
-    border-radius: 10px;
 
     @media only screen and (max-width: 600px) {
     display: flex;
-    background-size: 900px 10px;
-    background-image: url('../../fish4.png');
     margin: 0em;
     margin-top: 18em;
+    width: 100%;
+    height: 150vh;
   }
 `   
 
 const Title = styled.div`
     padding: 1em;
-    font-weight: bold;
+    font-weight: lighter;
     letter-spacing: 20px;
     font-size: 1.5em;
+    color: rgb(255,0,27);
 `
 
 const Description = styled.div`
@@ -33,23 +33,20 @@ const Description = styled.div`
     margin: 1em;
     font-size: 1.25em;
     position: relative;
-    border: 2px double;
+    border: 2px solid rgb(255,0,27);;
+    color: rgb(255,0,27);
 `
 
 const MoreButton = styled.button`
-    font-family: "Inconsolata", monospace;
-    font-size: 1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
     margin: 1em;
-    padding: 0.25em 1em;
+    padding: .25em 1em;
     width: 25%;
-    border-radius: 3px;
-    cursor: pointer;
-    border-radius: 5px;
-    filter: blur(0.01em);
-    animation: shake 2.5s linear forwards;
-    background-color: oldlace;
-    font-weight: bold;
-    font-style: italic;
+    border: 1px solid rgb(255,0,27);
+    background-color: white;
+    color: rgb(255,02,27);
+    display: unset;
 `
 
 const VerticalText = styled.div`
