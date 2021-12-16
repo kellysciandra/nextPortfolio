@@ -26,7 +26,6 @@ const Header = styled.div`
 
 const Header1 = styled.div`
     font-weight: lighter;
- 
 `;
 
 const SubText = styled.div`
