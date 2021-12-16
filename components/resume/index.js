@@ -83,8 +83,7 @@ const AboutPage = () => {
                 <SubText>09/2004 - 09/2006</SubText>
                 <SubText>Music Buisness</SubText>
             </Description>
-        </ResumeContainer>
-        
+        </ResumeContainer> 
     </>;
 };
 

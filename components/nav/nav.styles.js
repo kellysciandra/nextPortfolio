@@ -6,15 +6,9 @@ const NavContainer = styled.div`
     position: fixed;
     height: 150vh;
     width: 100vw;
-    cursor: pointer;
     top: 2em;
-    
+
     .paw {
-        float: right;
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        flex-direction: column;
         left: 5em;
         width: 10%;
         height: 10%;
@@ -22,7 +16,6 @@ const NavContainer = styled.div`
     }
 
     @media only screen and (max-width: 600px) {
-        display: flex;
         height: 150vh;
         width: 100vw;
         margin: 0;
@@ -36,13 +29,10 @@ const NavContainer = styled.div`
 `;
 
 const LinkStyle = styled.div`
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-    display: flex;
-    font-weight: bold;
     margin: 0 0 0 3rem;
     letter-spacing: .2em;
     cursor: pointer;
+
     @media only screen and (max-width: 600px) {
         margin: 0;
     }
@@ -50,17 +40,12 @@ const LinkStyle = styled.div`
 
 const Home = styled.div`
     .logo {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-        position: relative;
-        font-weight: lighter;
         letter-spacing: 20px;
         font-size: 2em;
         color: rgb(255,0,27);
         top: 20;
     }
     .notSelected {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-        font-weight: 300;
         position: relative;
         font-size: 1.5em;
         font-weight: 100;
@@ -81,15 +66,13 @@ const Home = styled.div`
 const Paw = styled.div`
     position: absolute;
     background-size: 75px 75px;
-    z-index: 1;
     height: 200vh;
     width: 50vw;
     padding: 25px;
     background-image: url('../../paw.png');
     background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out 0s;
     top: 5em;
-`
+`;
 
 const ContactLinks = styled.div`
     .links {

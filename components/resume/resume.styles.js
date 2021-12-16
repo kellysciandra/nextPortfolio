@@ -19,24 +19,19 @@ const ResumeContainer = styled.div`
     height: 150vh;
   }
 `   
-
 const Title = styled.div`
     padding: 1em;
-    font-weight: lighter;
     letter-spacing: 20px;
     font-size: 1.5em;
     color: rgb(255,0,27);
 `
-
 const Description = styled.div`
     padding: 1em;
     margin: 1em;
     font-size: 1.25em;
-    position: relative;
     border: 2px solid rgb(255,0,27);;
     color: rgb(255,0,27);
 `
-
 const MoreButton = styled.button`
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
@@ -46,24 +41,17 @@ const MoreButton = styled.button`
     border: 1px solid rgb(255,0,27);
     background-color: white;
     color: rgb(255,02,27);
-    display: unset;
+    cursor: pointer;
 `
-
 const VerticalText = styled.div`
     writing-mode: vertical-rl;
     text-orientation: mixed;
     float: right;
     font-weight: bold;
 `
-
 const SubText = styled.div`
     font-size: .75em;
     padding: 3px;
 `
-
-
-
-
-
 
 export { ResumeContainer, Title, Description, MoreButton, VerticalText, SubText  };

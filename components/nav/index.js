@@ -11,7 +11,7 @@ const NavBar = () => {
         setToggle(!toggle)
     };
 
-  return <>
+    return <>
         <NavContainer>
             <Link href="/">
                 <LinkStyle>
@@ -20,7 +20,6 @@ const NavBar = () => {
                 </Home>
                 </LinkStyle>
             </Link>
-
             <Paw
                 onClick={transformImage}
                 style={{transform: toggle ? rotate : "none"}}
@@ -33,13 +32,6 @@ const NavBar = () => {
                     </Home>
                     </LinkStyle>
                 </Link>
-                {/* <Link href="/contact">
-                    <LinkStyle>
-                    <Home>
-                        <Home className="notSelected">contact</Home>
-                    </Home>
-                    </LinkStyle>
-                </Link> */}
                 <Link href="/projects">
                     <LinkStyle>
                     <Home>
@@ -49,17 +41,15 @@ const NavBar = () => {
                 </Link>
             </Paw>
             <ContactLinks>
-            <a className="links" href="mailto:kellysciandradev@icloud.com"> 
-                <FiMail style={{ strokeWidth: .7}} size={40}/>
-            </a>
+                <a className="links" href="mailto:kellysciandradev@icloud.com"> 
+                    <FiMail style={{ strokeWidth: .7}} size={40}/>
+                </a>
             </ContactLinks> 
             <ContactLinks>
-            <a  className="links" href="https://www.linkedin.com/in/kelly-sciandra-464b371a0/"> 
-                <FiLinkedin style={{ strokeWidth: .7}} size={40}/>
-            </a>
-            </ContactLinks>
-    
-           
+                <a  className="links" href="https://www.linkedin.com/in/kelly-sciandra-464b371a0/"> 
+                    <FiLinkedin style={{ strokeWidth: .7}} size={40}/>
+                </a>
+            </ContactLinks>  
         </NavContainer>
     </>;
 };

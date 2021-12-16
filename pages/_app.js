@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps }) {
     <StateProvider>
     <Nav />
       <Component {...pageProps} />
-  
     </StateProvider>
   );
 }

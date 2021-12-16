@@ -18,26 +18,22 @@ const Container = styled.div`
 `;
 
 const Header = styled.div`
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: lighter;
   font-size: 2.5rem;
   color: rgb(255,0,27);
 `;
 
 const Header1 = styled.div`
-    font-weight: lighter;
+  
 `;
 
 const SubText = styled.div`
   font-size: 2rem;
-  font-weight: lighter;
   color: rgb(255,0,27);
 `;
 
 const SubText2 = styled.div`
   font-size: 1rem;
   color: rgb(255,0,27);
-  font-weight: lighter;
   margin-top: 1em;
 `;
 
@@ -47,7 +43,6 @@ const LinkWrapper = styled.div`
 
     .vid {
     width: 900px;
-
     z-index: -100; 
         @media only screen and (max-width: 600px) {
             display: none;

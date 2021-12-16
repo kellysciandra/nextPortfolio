@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,31 +9,25 @@ const Wrapper = styled.div`
   width: 50%;
   padding: 20px;
   margin: 15em 15em 0 0;
-  font-weight: bold;
   border: 4px double rgb(255,0,27);;
-  border-radius: 15px;
+  border-radius: 25px;
   color: rgb(255,0,27);
 
-    @media only screen and (max-width: 600px) {
-      border: 4px double rgb(255,0,27);;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20em 2em 0 0;
-      width: 80%;
-    }
+  @media only screen and (max-width: 600px) {
+    border: 4px double rgb(255,0,27);;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20em 2em 0 0;
+    width: 80%;
+  }
 `;
 
 const Link = styled.div`
-  animation: ease-in 1s alternate infinite;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   color: rgb(255,0,27);
   font-size: 1.25rem;
   font-weight: lighter;
   padding: 1rem 1rem 1rem 1rem;
-  font-family: "Inconsolata", monospace;
-  @media only screen and (max-width: 600px) {
-
-
-  }
 `;
 
 const Bio = styled.div`
@@ -43,7 +36,7 @@ const Bio = styled.div`
   font-weight: 300;
   font-size: 4em;
   font-weight: lighter;
-  align-content: center;
+ 
   @media only screen and (max-width: 600px) {
     font-size: 2.5em;
     margin-left: .5em;

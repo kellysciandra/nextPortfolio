@@ -22,12 +22,8 @@ const Layout = ({ children }) => (
         href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&display=swap"
         rel="stylesheet"
       />
-     
       <link rel="stylesheet" rel="preconnect" href={"nprogress.css"} />
-      {/* <script type="text/javascript">
-                {media}
-            </script> */}
-            <script src="https://kit.fontawesome.com/376f802ef0.js" crossOrigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/376f802ef0.js" crossOrigin="anonymous"></script>
     </Head>
 
     {children}
