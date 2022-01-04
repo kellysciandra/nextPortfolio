@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   width: 50%;
   padding: 20px;
   margin: 15em 15em 0 0;
-  border: 4px double rgb(255,0,27);;
+  border: 4px double rgb(255,0,27);
   border-radius: 25px;
   color: rgb(255,0,27);
 
@@ -34,7 +34,7 @@ const Bio = styled.div`
   padding: 1rem 1rem 1rem 1rem;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: lighter;
  
   @media only screen and (max-width: 600px) {

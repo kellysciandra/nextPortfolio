@@ -19,11 +19,11 @@ const NavContainer = styled.div`
         height: 150vh;
         width: 100vw;
         margin: 0;
-
+        position: absolute;
         .paw {
             top: -3em;
             width: 35%;
-            margin-top: 10em;
+            margin-top: 12em;
         }
     }
 `;
@@ -86,8 +86,8 @@ const ContactLinks = styled.div`
     @media only screen and (max-width: 600px) {
         cursor: pointer;
         .links {
-            padding: 0;
-            margin: .5em 1em 0 0;
+            display: fixed;
+            margin-top: 2em;
         }
     }
 `

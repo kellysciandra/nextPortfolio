@@ -26,11 +26,11 @@ const Git = () => {
             <section id="card">
                 <Wrapper>
                     <Link>
-                    <a href={link}>github</a>
+                    <a href={link}>Github</a>
                     </Link>
-                    <Bio> {bio} </Bio>
+                    <Bio> Front End Developer </Bio>
                     <Repo>
-                    <a href={"https://github.com/kellysciandra?tab=repositories"}>repos</a>
+                    <a href={"https://github.com/kellysciandra?tab=repositories"}>Repos</a>
                     </Repo>
                 </Wrapper>
             </section>

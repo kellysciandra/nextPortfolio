@@ -14,16 +14,15 @@ const ResumeContainer = styled.div`
     @media only screen and (max-width: 600px) {
     display: flex;
     margin: 0em;
-    margin-top: 18em;
+    margin-top: 20em;
     width: 100%;
     height: 150vh;
   }
 `   
 const Title = styled.div`
-    padding: 1em;
-    letter-spacing: 20px;
-    font-size: 1.5em;
-    color: rgb(255,0,27);
+  font-size: 2.5rem;
+  color: rgb(255,0,27);
+  text-align: center;
 `
 const Description = styled.div`
     padding: 1em;

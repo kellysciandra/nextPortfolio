@@ -16,7 +16,7 @@ const NavBar = () => {
             <Link href="/">
                 <LinkStyle>
                 <Home>
-                    <Home className="logo">kelly sciandra</Home>
+                    <Home className="logo">Kelly Sciandra</Home>
                 </Home>
                 </LinkStyle>
             </Link>
@@ -28,29 +28,30 @@ const NavBar = () => {
                 <Link href="/resume">
                     <LinkStyle>
                     <Home>
-                        <Home className="notSelected">resume</Home>
+                        <Home className="notSelected">Resume</Home>
                     </Home>
                     </LinkStyle>
                 </Link>
                 <Link href="/projects">
                     <LinkStyle>
                     <Home>
-                        <Home className="notSelected">projects</Home>
+                        <Home className="notSelected">Projects</Home>
                     </Home>
                     </LinkStyle>
                 </Link>
             </Paw>
             <ContactLinks>
                 <a className="links" href="mailto:kellysciandradev@icloud.com"> 
-                    <FiMail style={{ strokeWidth: .7}} size={40}/>
+                    <FiMail style={{ strokeWidth: .8}} size={40}/>
                 </a>
             </ContactLinks> 
             <ContactLinks>
                 <a  className="links" href="https://www.linkedin.com/in/kelly-sciandra-464b371a0/"> 
-                    <FiLinkedin style={{ strokeWidth: .7}} size={40}/>
+                    <FiLinkedin style={{ strokeWidth: .8}} size={40}/>
                 </a>
             </ContactLinks>  
         </NavContainer>
+
     </>;
 };
 
